@@ -17,5 +17,73 @@ namespace StudentInfo_system.StudentEntities
         private string homeLanguage;
         private char saCitizenshipStat;
         private string foreignCountry;
+
+        //2.4 Property Methods
+        public int StudentID
+        {
+            get
+            {
+                return studentID;
+            }
+            set
+            {
+                studentID = value;
+            }
+        }
+        public char Gender
+        {
+            get
+            {
+                return gender;
+            }
+            set
+            {
+                gender = value;
+            }
+        }
+        public string PopulationGroup
+        {
+            get
+            {
+                return populationGroup;
+            }
+            set
+            {
+                populationGroup = value;
+            }
+        }
+        public string HomeLanguage
+        {
+            get
+            {
+                return homeLanguage;
+            }
+            set
+            {
+                homeLanguage = value;
+            }
+        }
+        public char SACitizenship
+        {
+            get
+            {
+                return saCitizenshipStat;
+            }
+            set
+            {
+                saCitizenshipStat = value;
+            }
+        }
+        public string ForeignCountry
+        {
+            get
+            {
+                return foreignCountry;
+            }
+            set
+            {
+                foreignCountry = value;
+            }
+        }q
     }
 }
