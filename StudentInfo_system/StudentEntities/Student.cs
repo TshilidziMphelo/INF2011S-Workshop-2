@@ -84,6 +84,28 @@ namespace StudentInfo_system.StudentEntities
             {
                 foreignCountry = value;
             }
-        }q
+        }
+        //2.5.1. Default Constructor
+        public Student()
+        {
+            studentID = 0;
+            gender = ' ';
+            populationGroup = "";
+            homeLanguage = "";
+            saCitizenshipStat = ' ';
+            foreignCountry = "";
+        }
+        //2.5.2. Parametrised Constructor
+        public Student(int iStudentID, char cGender, string sPopulationGroup, string sHomeLanguage, char cSACitizenship, string sForeignCountry)
+        {
+            studentID = iStudentID;
+            gender = cGender;
+            populationGroup = sPopulationGroup;
+            homeLanguage = sHomeLanguage;
+            saCitizenshipStat = cSACitizenship;
+            foreignCountry = sForeignCountry;
+        }
     }
+    #endregion
+}
 }
